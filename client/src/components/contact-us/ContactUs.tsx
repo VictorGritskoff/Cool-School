@@ -18,7 +18,7 @@ export default function ContactUs() {
             </div>
             <div className="col-lg-8">
               <form
-                action="mailto:stefanbelis932@gmail.com"
+                action="mailto:changeme@gmail.com"
                 method="get"
                 encType="text/plain"
                 className="form-contact contact_form"
@@ -92,7 +92,7 @@ export default function ContactUs() {
                   <i className="ti-email"></i>
                 </span>
                 <div className="media-body">
-                  <h3>stefanbelis932@gmail.com</h3>
+                  <h3>changeme@gmail.com</h3>
                   <p>{t('contact.email.description')}</p>
                 </div>
               </div>

@@ -15,8 +15,8 @@ export default function LanguagePicker() {
         </p>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
           <LanguageChoice
-            language={LanguageEnum.BULGARIAN}
-            translationKey="language.picker.bulgarian"
+            language={LanguageEnum.RUSSIAN}
+            translationKey="language.picker.russian"
           />
           <LanguageChoice
             language={LanguageEnum.ENGLISH}

@@ -6,4 +6,5 @@ export enum AdminPagesEnum {
   COURSES = 'courses',
   SUBSECTIONS = 'subsections',
   RESOURCES = 'resources',
+  CHARTS = 'charts'
 }

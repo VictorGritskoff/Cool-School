@@ -7,6 +7,7 @@ import AdminTableDefault from './components/admin/admin-tables/AdminTableDefault
 import AdminTableResources from './components/admin/admin-tables/AdminTableResources';
 import AdminTableSubsections from './components/admin/admin-tables/AdminTableSubsections';
 import AdminTableUsers from './components/admin/admin-tables/AdminTableUsers';
+import AdminCharts from './components/admin/admin-tables/AdminCharts';
 import Authenticate from './components/auth/authenticate/Authenticate';
 import FinishRegister from './components/auth/finish-register/FinishRegister';
 import ForgottenPassword from './components/auth/forgotten-password/ForgottenPassword';
@@ -127,6 +128,10 @@ function App() {
                           <Route
                             path={AdminPagesEnum.RESOURCES}
                             element={<AdminTableResources />}
+                          />
+                          <Route
+                            path={AdminPagesEnum.CHARTS}
+                            element={<AdminCharts />}
                           />
                           <Route
                             path="*"

@@ -107,6 +107,10 @@ function AdminNav() {
         text={t('admin.resources')}
         pathName={`${PagesEnum.Admin}/${AdminPagesEnum.RESOURCES}`}
       />
+      <HeaderNavItem
+        text={t('admin.charts')}
+        pathName={`${PagesEnum.Admin}/${AdminPagesEnum.CHARTS}`}
+      />
     </ul>
   );
 }

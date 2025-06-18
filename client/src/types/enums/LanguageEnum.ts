@@ -1,12 +1,12 @@
 // Enumeration representing possible languages
 // Each language has a corresponding string representation
 export enum LanguageEnum {
-  BULGARIAN = 'Български',
+  RUSSIAN = 'Русский',
   ENGLISH = 'English',
 }
 
 const languageToLocale = {
-  [LanguageEnum.BULGARIAN as string]: 'bg',
+  [LanguageEnum.RUSSIAN as string]: 'ru',
   [LanguageEnum.ENGLISH as string]: 'en',
 };
 

@@ -10,7 +10,7 @@
   "date.minutes": "minutes",
   "date.seconds": "seconds",
 
-  "cool.school": "Cool School",
+  "cool.school": "Learning Management System",
   "moto": "THE IDEAL SCHOOL",
 
   "navbar.home": "Home",
@@ -22,7 +22,7 @@
   "navbar.logout": "Logout",
   "navbar.finish.register": "Complete register",
 
-  "language.picker.bulgarian": "Bulgarian",
+  "language.picker.russian": "Русский",
   "language.picker.english": "English",
 
   "admin.blogs": "Blogs",
@@ -74,15 +74,15 @@
   "home.our.blog": "OUR BLOG",
   "home.students.blog": "Students Blog",
 
-  "footer.text": "Discover the unparalleled advantages that make online education the ideal choice for those seeking a convenient, flexible, and enriching learning journey. THE IDEAL SCHOOL",
+  "footer.text": "Discover the unparalleled advantages that make online education the ideal choice for those seeking a convenient, flexible, and enriching learning journey. LEARNING MANAGEMENT SYSTEM",
   "footer.contact.us": "Contact us",
 
   "footer.contact.us.address": "Address:",
-  "footer.contact.us.address.text": "7700 Targovishte town, Targovishte municipality, Targovishte region, ”Cap. Danajiev” 22",
+  "footer.contact.us.address.text": "Republic of Belarus, Minsk, P. Brovki Street 6",
   "footer.contact.us.phone": "Phone:",
-  "footer.contact.us.phone.text": "00 (359) 601 6-30-70",
+  "footer.contact.us.phone.text": "+375 17 379-32-35",
   "footer.contact.us.email": "Email:",
-  "footer.contact.us.email.text": "stefanbelis932@gmail.com",
+  "footer.contact.us.email.text": "changeme@gmail.com",
 
   "contact.contact.us": "Contact us",
   "contact.contact.us.capitalized": "Contact us",
@@ -91,8 +91,8 @@
   "contact.message.email": "Enter email address",
   "contact.message.subject": "Enter Subject",
   "contact.button": "SEND MESSAGE",
-  "contact.address": "Bulgaria, Targovishte municipality, Targovishte region",
-  "contact.address.description": "7700 Targovishte town, \"Cap. Danajiev\" 22",
+  "contact.address": "Republic of Belarus, Minsk, P. Brovki Street 6",
+  "contact.address.description": "Republic of Belarus, Minsk, P. Brovki Street 6",
   "contact.phone.description": "Mon to Fri 9am to 6pm",
   "contact.email.description": "Send us your query anytime!",
 
