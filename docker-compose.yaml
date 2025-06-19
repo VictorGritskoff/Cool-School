@@ -1,0 +1,50 @@
+version: "3.8"
+
+networks:
+  dev:
+
+services:
+
+  client:
+    build:
+      context: ./client
+    ports:
+      - "3000:3000"
+    container_name: lms-client
+    depends_on:
+      - server
+    networks:
+      - dev
+
+  server:
+    env_file: /server/.env
+    build:
+      context: ./server
+    ports:
+      - "8080:8080"
+    container_name: lms-server
+    depends_on:
+      - db
+    environment:
+        DATABASE_URL: ${MYSQL_URL}
+    networks:
+      - dev
+
+  db:
+    env_file: /server/.env
+    image: mysql:8
+    container_name: lms-database
+    environment:
+      MYSQL_DATABASE: lms
+      MYSQL_ROOT_PASSWORD: ${MYSQLPASSWORD}
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - dev
+    healthcheck:
+      test: [ "CMD", "mysqladmin", "ping", "-h", "localhost" ]
+      interval: 10s
+      retries: 5
+
+volumes:
+  db_data:
